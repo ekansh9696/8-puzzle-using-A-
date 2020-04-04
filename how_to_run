@@ -1,0 +1,6 @@
+It reads from command line 2 arguments and an input text file. Input text file contains 2 lines that represents initial state and goal state.\n
+The hueristic arguement will either be 1 for manhatten distance or 2 for number of misplaced tiles.
+The output argument will either be 0 for action sequence or 1 for states.
+An example input file has been included.
+On cli execute the command in the given format
+python 8puzzle.py (hueristic arguement) (output arguement) < (input file name)
