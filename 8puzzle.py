@@ -199,7 +199,7 @@ def main():
     initial = EightPuzzle(input_i)
     goal = EightPuzzle(input_f)
     
-    print initial.a_star(goal, heuristic, output)
+    print (initial.a_star(goal, heuristic, output))
 
     
 if __name__ == '__main__':
